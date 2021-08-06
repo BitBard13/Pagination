@@ -18,10 +18,10 @@ def query(pageNumber, pageSize):
                 print(re)
 try:
         print("nhap so thu tu trang:")
-        #a = int(input())
+        a = int(input())
         print("nhap so record trong trang")
-        #b = int(input())
-        query(1,10)
+        b = int(input())
+        query(a,b)
 finally:
                 cur.close()
                 conn.close()
